@@ -141,6 +141,23 @@ nav a:hover{
 .feature-img{
     width: 300px;
 }
+/* services */
+
+
+
+/* facts */
+.fact{
+    margin-top: 20px;
+}
+.fact-title{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.fact-description{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
 
 /* responsive media */
 /* small devices */
