@@ -16,9 +16,12 @@ a{
     background: #FF900E;
     cursor: pointer;
 }
+.gray{
+    color:#727272;
+}
 main{
     max-width: 1440px;
-    margin: 0px auto;
+    margin: 70px auto;
 }
 /* header */
 
@@ -85,6 +88,7 @@ nav a{
 }
 #first{
     color:#727272;
+    font-weight: 500;
 }
 #second{
     color:#131313;
@@ -98,7 +102,7 @@ nav a{
 .feature-text{
     padding-left: 70px;
     padding-right: 70px;
-
+    flex-wrap: wrap;
 }
 .feature-photo{
     display: grid;
@@ -115,17 +119,22 @@ nav a{
     header{
         padding: 20px;
     }
-    nav {
+    .banner-text{
+        width: 100%;
+    }
+    nav,.feature {
         flex-direction: column;
     }
-    
+    .feature-photo{
+        grid-template-columns: 1fr;
+    }
 }
 /* medium devices */
 @media screen and (min-width:576px) and (max-width:992px) {
     header{
         padding: 50px;
     }
-    nav {
+    nav,.feature {
         flex-direction: column;
     }
     
