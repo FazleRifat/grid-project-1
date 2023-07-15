@@ -16,6 +16,10 @@ a{
     background: #FF900E;
     cursor: pointer;
 }
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
 /* header */
 
 
@@ -67,7 +71,43 @@ nav a{
     margin-top: 20px;
     width: 100%;
 }
+/* feature */
+.feature{
+    display: flex;
+    align-items: center;
+}
+/* feature title style */
+.feature-title{
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#first{
+    color:#727272;
+}
+#second{
+    color:#131313;
+    font-weight: 700;
+}
+#third{
+    color:#FF900E;
+    font-weight: 700;
+}  
+/* feature title style done */
+.feature-text{
+    padding-left: 70px;
+    padding-right: 70px;
 
+}
+.feature-photo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px
+}
+.feature-img{
+    width: 300px;
+}
 
 /* responsive media */
 /* small devices */
