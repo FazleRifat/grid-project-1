@@ -4,15 +4,17 @@ body{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 .primary-btn{
     padding: 20px 25px;
     border: none;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #FFF;
     background: #FF900E;
+    cursor: pointer;
 }
 /* header */
 
@@ -60,4 +62,31 @@ nav a{
 }
 .banner-description{
     color: var(--dark-03, #727272);
+}
+.banner-img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/* responsive media */
+/* small devices */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    
+}
+/* medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding: 50px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    
 }
