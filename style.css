@@ -1,4 +1,8 @@
 /* all */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Work Sans', sans-serif;
 }
@@ -56,23 +60,42 @@ nav li{
 nav a{
     color: var(--dark-01, #131313);
 }
+nav a:hover{
+    color:#FFF;
+    padding:10px 10px;
+    border: none;
+    border-radius: 8px;
+}
+nav a:hover{
+    background: #FFAFBD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}    
 /* banner */
 .banner-text{
     width: 800px;
     text-align: center;
     margin: 0px auto;
+   
 }
 .banner-title{
     font-size: 4rem;
     font-weight: 700;
     color: var(--dark-01, #131313);
+    margin-top: 20px;
+    margin-bottom: 0px;
+
 }
 .banner-description{
     color: var(--dark-03, #727272);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .banner-img{
     margin-top: 20px;
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 /* feature */
 .feature{
@@ -80,12 +103,6 @@ nav a{
     align-items: center;
 }
 /* feature title style */
-.feature-title{
-    font-size: 2.8rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 #first{
     color:#727272;
     font-weight: 500;
@@ -103,6 +120,18 @@ nav a{
     padding-left: 70px;
     padding-right: 70px;
     flex-wrap: wrap;
+}
+.feature-title{
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.feature-description{
+    margin-top: 20px;
+    margin-bottom:20px;
 }
 .feature-photo{
     display: grid;
