@@ -229,10 +229,14 @@ nav a:hover{
 }
 
 /* sponsor */
-
+.sponsor{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
 .sponsor-text{
     text-align: center;
     margin-top: 20px;
+    
 }
 .sponsor-photo{
     display: flex;
@@ -248,7 +252,7 @@ nav a:hover{
 /* footer */
 footer{
     text-align: center;
-    margin:216px 240px ;
+    margin:0px auto;
     padding: 10px 100px;
     border: none;
     border-radius: 8px;
