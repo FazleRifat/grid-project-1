@@ -99,8 +99,8 @@ nav a:hover{
 }
 /* main section */
 .main{
-    max-width:1440px;
-    margin: 70px auto;
+    max-width:1000px;
+    margin: 40px auto;
 }
 /* feature */
 .feature{
@@ -144,14 +144,14 @@ nav a:hover{
     gap:20px
 }
 .feature-img{
-    width: 300px;
+    width: 200px;
 }
 /* services */
 .services{
     display: flex;
     align-items: center;
     margin-top: 130px;
-    gap:120px;
+    gap:20px;
 }
 .service-title{
     border-left:5px solid #FF900E;
@@ -159,7 +159,7 @@ nav a:hover{
 }
 .services .card{
     box-sizing: border-box;
-    padding: 30px;
+    padding: 50px;
     margin-bottom: 20px;
     text-align: left;
     border-radius: 8px;
@@ -169,10 +169,12 @@ nav a:hover{
 .service-img{
     height: 90%;
     margin-left: 90px;
+    width: 500px;
 }
 .ten-year{
+    width: 200px;
+    height: 120px;
     text-align: center;
-    width: 342px;
     border: none;
     border-radius: 8px;
     color: #FFF;
@@ -180,12 +182,14 @@ nav a:hover{
     position: relative;
     padding: 10px 5px ;
     bottom: 120px;
+    left: 90px;
 }
 .ten-year h2{
-    font-size: 65px;
+    font-size:30px;
     margin: 0px;
 }
 .ten-year p{
+    margin-top: 30px;
     font-size: 1.5rem;
 }
 /* facts */
@@ -297,6 +301,7 @@ footer p{
     }
     footer{
        margin: 0px;
+       padding: 0px;
        
     }
     footer p{
@@ -308,9 +313,11 @@ footer p{
 @media screen and (min-width:576px) and (max-width:992px) {
     header{
         padding: 50px;
+        
     }
     nav,.feature,.fact-card,.sponsor-photo,.services {
         flex-direction: column;
+        justify-content: center;
     }
     .fact{
         padding: 20px;
@@ -324,4 +331,8 @@ footer p{
     footer{
         margin: 0px;
     }
+}
+@media screen and(min-width:992px) and (max-width:1080px) {
+
+    
 }
